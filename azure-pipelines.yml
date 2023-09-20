@@ -15,8 +15,7 @@ stages:
   jobs:  
   - job: Build
     displayName: Build
-    pool:
-      vmImage: 'ubuntu-latest'
+    pool: hazib-agent
     steps:
     - task: Docker@2
       inputs:
