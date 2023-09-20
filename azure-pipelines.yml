@@ -22,5 +22,5 @@ stages:
         repository: 'hazibence/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: |
+        tags:
           $(tag)
