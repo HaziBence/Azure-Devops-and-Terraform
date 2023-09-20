@@ -1,8 +1,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: hazib-agent
+pool: hazib-agent
 
 resources:
 - repo: self
