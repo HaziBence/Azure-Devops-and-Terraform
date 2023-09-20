@@ -6,10 +6,9 @@ namespace weatherapi.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    // Status strings
     private static readonly string[] Summaries = new[]
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Valami"
+        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
