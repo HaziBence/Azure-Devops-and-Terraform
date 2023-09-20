@@ -21,7 +21,7 @@ stages:
         repository: 'hazibence/weatherapi'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags:
+        tags: |
           $(tag)
 - stage: Provision
   displayName: 'Terraforming on Azure...'
